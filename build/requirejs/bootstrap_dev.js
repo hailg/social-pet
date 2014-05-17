@@ -13,12 +13,8 @@
       // Pre-load these for splash-screen progress bar...
 
       { require    : "./vendor/requirejs/require.js",                  size: "80196"   },
-      { underscore : "./vendor/underscore/underscore.js",              size: "43568"   },
-
       { angular    : "./vendor/angular/angular.js",                    size: "551057"  },
-      { ngRoute    : "./vendor/angular-route/angular-route.js",        size: "30052"   },
-      { ngSanitize : "./vendor/angular-sanitize/angular-sanitize.js",  size: "19990"   }
-
+      { ngRoute    : "./vendor/angular-route/angular-route.js",        size: "30052"   }
     )
     .ready("ALL", function() {
 
@@ -30,18 +26,12 @@
             paths   :
             {
                 // Configure alias to full paths
-
-                'auth'         : './quizzer/authentication',
-                'quiz'         : './quizzer/quiz',
-                'utils'        : './mindspace/utils'
+                'splash' : './socialpet/splash'
 
             },
             shim    :
             {
-                'underscore':
-                {
-                    exports : '_'
-                }
+
             }
         });
 

@@ -6,21 +6,12 @@ module.exports = {
     devDir      : "../client",
     buildDir    : "../bin",
     compileDir  : "../deploy",
+    gear2Dir    : "../gear2",
 
     appFiles: {
 
         js: [
             "../client/src/**/*.js"
-        ],
-
-        jsunit: [
-            "../client/test/**/*Spec.js",
-            "../client/test/*.js"
-        ],
-
-        jsscenario: [
-            "../client/test/**/*Scenario.js",
-            "../client/test/*.js"
         ],
 
         templates : [
@@ -33,10 +24,8 @@ module.exports = {
 
         css : [
             "../client/assets/css/bootstrap.css",
-            "../client/assets/css/monokai.css"
-        ],
-
-        less: "../client/src/assets/less/main.less"
+            "../client/assets/css/style.css"
+        ]
     },
 
     /**
@@ -59,12 +48,9 @@ module.exports = {
         js: [
             "../client/vendor/angular/angular.js",
             "../client/vendor/angular-route/angular-route.js",
-            "../client/vendor/angular-sanitize/angular-sanitize.js",
             "../client/vendor/headjs-notify/src/load.js",
             "../client/vendor/require/require.js",
-            "../client/vendor/requirejs-text/text.js",
-            "../client/vendor/underscore.js",
-            "../client/vendor/highlightjs/highlight.pack.js"
+            "../client/vendor/requirejs-text/text.js"
         ],
         css: [
         ]

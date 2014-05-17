@@ -149,9 +149,9 @@ module.exports = function(grunt) {
                     banner: '<%= meta.banner %>'
                 },
                 src: [
-                    '<%= buildDir %>/assets/js/quizzler.js'
+                    '<%= buildDir %>/assets/js/socialpet.js'
                 ],
-                dest: '<%= buildDir %>/assets/js/quizzler.js'
+                dest: '<%= buildDir %>/assets/js/socialpet.js'
             }
         },
 
@@ -199,12 +199,10 @@ module.exports = function(grunt) {
                     {
                         // Configure alias to full paths; relative to `baseURL`
 
-                        'auth'         : './quizzer/authentication',
-                        'quiz'         : './quizzer/quiz',
-                        'utils'        : './mindspace/utils'
+                        'splash' : './socialpet/splash'
 
                     },
-                    out: '<%= buildDir %>/assets/js/quizzler.js',
+                    out: '<%= buildDir %>/assets/js/socialpet.js',
                     name: 'main'
 
                 },
@@ -228,7 +226,6 @@ module.exports = function(grunt) {
         'copy:build_vendorjs',
         'copy:dev_boot',
         'copy:index'
-
     ]);
 
     grunt.registerTask( "prod", [

@@ -1,16 +1,16 @@
 {
-  "author": "Thomas Burleson <ThomasBurleson@Gmail.com>",
-  "name": "Quizzler",
-  "version": "0.0.2",
-  "homepage": "http://mindspace.github.io/Desk-Quizzler/",
+  "author": "Le Gia Hai <hailegia@gmail.com>",
+  "name": "SocialPet",
+  "version": "1.0.0",
+  "homepage": "https://github.com/hailg/social-pet",
   "bugs": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mindspace/Desk-Quizzler"
+    "url": "git@github.com:hailg/social-pet.git"
   },
   "licenses": {
-    "type": "GPL",
-    "url": "https://github.com/Mindspace/Desk-Quizzler/blob/master/LICENSE"
+    "type": "MIT",
+    "url": "https://github.com/hailg/social-pet/blob/master/LICENSE"
   },
   "dependencies": {},
   "devDependencies": {
